@@ -5,11 +5,11 @@ Initial Comments: Use cases need revision. What information exactly will be look
 
 | **Attribute**    | **Description**                                                                                     |
 |-------------------|-----------------------------------------------------------------------------------------------------|
-| **Name:**         | Connect to Discord Account                                                                          |
+| **Name:**         | Authenticate using Discord Account                                                                          |
 | **Actor:**        | User                                                                                                |
 | **Description:**  | The User connects their Discord account to the system for authentication and participation in campaigns. |
 | **Precondition:** | The system is operational. The User has a valid Discord account.                                    |
-| **Scenario:**     | 1. **Actor:** Requests to connect Discord account. <br> 2. **System:** Redirects User to Discord authorization page. <br> 3. **Actor:** Grants permission. <br> 4. **System:** Confirms successful connection and links the Discord account. |
+| **Scenario:**     | 1. **Actor:** Requests to connect Discord account. <br> 2. **System:** Redirects User to Discord authorization page. <br> 3. **Actor:** Grants permission. <br> 4. **System:** Redirects the user to the website <br>5. **System:* confirms success |
 | **Result:**       | The User’s Discord account is linked to the system.                                                 |
 | **Extensions:**   | 3a1. **Actor:** Cancels authorization. <br> 3a2. **System:** Returns User to system with no connection established. |
 | **Exceptions:**   | 2a1. **System:** Cannot reach Discord API. Displays error message. <br> 2a2. **Use case ends here** |  
@@ -20,13 +20,12 @@ Initial Comments: Use cases need revision. What information exactly will be look
 
 | **Attribute**    | **Description**                                                                                     |
 |-------------------|-----------------------------------------------------------------------------------------------------|
-| **Name:**         | Register to a Mega-Campaign                                                                         |
+| **Name:**         | Register for a Mega-Campaign                                                                         |
 | **Actor:**        | User                                                                                              |
 | **Description:**  | The User registers for an available mega-campaign.                                                  |
 | **Precondition:** | The system is operational. A mega-campaign is available for registration. The User is connected with Discord. |
-| **Scenario:**     | 1. **Actor:** requests upcoming mega-campaigns. <br> 2. **System** shows all available mega campaigns <br> 3. **Actor:** Selects a mega-campaign. <br> 4. **System:** Shows information on campaign. <br> 5. **User:** Selects preffered countries <br> 6. **System:** Registers the User for the selected campaign. <br> 7. **System:** Confirms registration. |
+| **Scenario:**     | 1. **Actor:** requests upcoming mega-campaigns. <br>2. **System** shows all available mega campaigns the user can sign up for <br> 3. **Actor:** Selects a mega-campaign. <br> 4. **System:** Shows the campaign's signup view. <br> 5. **Actor:** Registers their prefered starting positions <br>7. **System:** Registers the User for the selected campaign. <br> 8. **System:** Confirms registration. |
 | **Result:**       | The User is registered for the selected mega-campaign.                                              |
-| **Extensions:**   | 5a1. **System:** Campaign is already full. Displays notification. <br> 5a2. **Use case ends here** |
 | **Exceptions:**   | 2a1. **System:** Cannot retrieve campaign data. Displays error. <br> 2a2. **Use case ends here** |  
 
 ---
@@ -71,20 +70,20 @@ Initial Comments: Use cases need revision. What information exactly will be look
 | **Scenario:**     | 1. **Actor:** Requests to create new campaign. <br> 2. **System:** Displays campaign setup form. <br> 3. **Actor:** Provides campaign details. <br> 4. **System:** Validates and saves the new campaign. <br> 5. **System:** Confirms campaign creation. |
 | **Result:**       | A new campaign is created in the system.                                                            |
 | **Extensions:**   | 3a1. **Actor:** Leaves mandatory fields empty. <br> 3a2. **System:** Displays error message. <br> 3a3. **Continue with step 3** |
-| **Exceptions:**   | 4a1. **System:** Cannot save campaign due to technical error. Displays error. <br> 4a2. **Use case ends here** |  
+| **Exceptions:**   | 4a1. **System:** Cannot save campaign due to a system error. Displays error. <br> 4a2. **Use case ends here** |  
 
 ---
 
-## Use Case: Assign Players to a Country  
+## Use Case: Assign Players to a starting position  
 
 | **Attribute**    | **Description**                                                                                     |
 |-------------------|-----------------------------------------------------------------------------------------------------|
-| **Name:**         | Assign Players to a Country                                                                        |
+| **Name:**         | Assign Players to a starting position                                                                        |
 | **Actor:**        | Admin                                                                                               |
-| **Description:**  | The Admin assigns registered players to countries within a campaign.                                |
+| **Description:**  | The Admin assigns registered players to starting position within a campaign.                                |
 | **Precondition:** | The system is operational. A campaign exists with registered players. <br>Use Case: View Mega-Campaign                                 |
-| **Scenario:**     | 1. **Actor:** Opens player assignment interface. <br> 2. **System:** Displays available players and countries. <br> 3. **Actor:** Selects a player and assigns a country. <br> 4. **System:** Saves the assignment. <br> 5. **System:** Confirms assignment. |
-| **Result:**       | Players are assigned to countries within the campaign.                                              |
+| **Scenario:**     | 1. **Actor:** Opens player assignment interface. <br> 2. **System:** Displays available players and starting position. <br> 3. **Actor:** Selects a player and assigns a starting position. <br> 4. **System:** Saves the assignment. <br> 5. **System:** Confirms assignment. |
+| **Result:**       | Players are assigned to starting position    within the campaign.                                              |
 | **Extensions:**   | 3a1. **Actor:** Selects a player already assigned. <br> 3a2. **System:** Displays overwrite warning. <br> 3a3. **Actor:** Confirms or cancels overwrite. |
 | **Exceptions:**   | 2a1. **System:** Cannot retrieve player or country data. Displays error. <br> 2a2. **Use case ends here** |  
 
