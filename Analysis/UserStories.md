@@ -19,8 +19,6 @@ As <> i want to be able to ...
 
 ### Admin
 
-As a Admin i want to be able to ...
-
  - set up a new campaign
 
  - assign players to a country
