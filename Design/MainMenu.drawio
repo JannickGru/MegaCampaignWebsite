@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.2.0">
+  <diagram name="Seite-1" id="pLlAuZSKbxPWZ2vegFm-">
+    <mxGraphModel dx="2253" dy="1948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sJDgjflZ-qPH0IFNLtnj-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-60" width="1270" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="sJDgjflZ-qPH0IFNLtnj-3" value="&lt;div align=&quot;center&quot;&gt;Paradox Mega Kampangen&lt;/div&gt;" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.rrect;rSize=5;strokeColor=#DFDFDF;html=1;whiteSpace=wrap;fillColor=#ffffff;fontColor=#000000;verticalAlign=bottom;align=center;spacing=20;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="250" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sJDgjflZ-qPH0IFNLtnj-4" value="Image cap" style="html=1;shadow=0;dashed=0;shape=mxgraph.bootstrap.topButton;rSize=5;perimeter=none;whiteSpace=wrap;fillColor=#868E96;strokeColor=#DFDFDF;fontColor=#DEE2E6;resizeWidth=1;fontSize=18;" vertex="1" parent="sJDgjflZ-qPH0IFNLtnj-3">
+          <mxGeometry width="250" height="180" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
