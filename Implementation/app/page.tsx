@@ -9,7 +9,7 @@ const cardData = [
   { title: "Europa Universalis", href: "#", image: "/images/eu.png", text: "Master the art of diplomacy, trade, and warfare in a dynamic world spanning centuries." },
   { title: "Victoria", href: "#", image: "/images/vic3.png", text: "Dive into the complexities of the 19th century with deep economic and political systems." },
   { title: "Hearts of Iron", href: "#", image: "/images/hoi4.png", text: "Experience the intensity of World War II with strategic depth and historical accuracy." },
-  { title: "Mega Campaign", href: "#", image: "/images/mega.jpg", text: "Play the entire grand strategy timeline from 1066 to 1991 in one epic campaign!" },
+  { title: "Mega Campaign", href: "#", image: "/images/paradox.png", text: "Play the entire grand strategy timeline from 1066 to 1991 in one epic campaign!" },
 ];
 
 export default function Page() {
