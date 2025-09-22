@@ -1,5 +1,6 @@
 "use client";
-import MultiplayerList, { MpEntry } from '../../components/MultiplayerList';
+import MultiplayerList from '../../components/MultiplayerList';
+import { MpEntry } from '../../types/MpEntry';
 
 const infoText = "Master the art of diplomacy, trade, and warfare in a dynamic world spanning centuries.";
 const mpList: MpEntry[] = [

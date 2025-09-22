@@ -1,12 +1,5 @@
 import styles from './MultiplayerList.module.scss';
-
-export type MpEntry = {
-  name: string;
-  startYear: number;
-  players: string;
-  status: "Sign-In" | "Running" | "Completed";
-  href: string;
-};
+import { MpEntry } from '../types/MpEntry';
 
 type Props = {
   title: string;

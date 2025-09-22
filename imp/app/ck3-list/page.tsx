@@ -1,5 +1,6 @@
 "use client";
-import MultiplayerList, { MpEntry } from '../../components/MultiplayerList';
+import MultiplayerList from '../../components/MultiplayerList';
+import { MpEntry } from '../../types/MpEntry';
 
 const infoText = "Embark on a medieval journey of intrigue, romance, and conquest in a world shaped by dynasties.";
 const mpList: MpEntry[] = [
