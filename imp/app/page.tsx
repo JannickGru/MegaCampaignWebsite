@@ -5,10 +5,10 @@ import styles from "./page.module.scss";
 import VanillaTilt from "vanilla-tilt";
 
 const cardData = [
-  { title: "Crusader Kings", href: "/ck3-list", image: "/images/ck.png", text: "Embark on a medieval journey of intrigue, romance, and conquest in a world shaped by dynasties." },
+  { title: "Crusader Kings", href: "/ck-list", image: "/images/ck.png", text: "Embark on a medieval journey of intrigue, romance, and conquest in a world shaped by dynasties." },
   { title: "Europa Universalis", href: "/eu-list", image: "/images/eu.png", text: "Master the art of diplomacy, trade, and warfare in a dynamic world spanning centuries." },
   { title: "Victoria", href: "#", image: "/images/vic3.png", text: "Dive into the complexities of the 19th century with deep economic and political systems." },
-  { title: "Hearts of Iron", href: "#", image: "/images/hoi4.png", text: "Experience the intensity of World War II with strategic depth and historical accuracy." },
+  { title: "Hearts of Iron", href: "/hoi-list", image: "/images/hoi4.png", text: "Experience the intensity of World War II with strategic depth and historical accuracy." },
   { title: "Mega Campaign", href: "#", image: "/images/paradox.png", text: "Play the entire grand strategy timeline from 1066 to 1991 in one epic campaign!" },
 ];
 
