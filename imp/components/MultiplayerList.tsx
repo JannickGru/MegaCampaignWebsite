@@ -30,7 +30,7 @@ export default function MultiplayerList({ title, infoText, image, mpList }: Prop
           </thead>
           <tbody>
             {mpList.map(mp => (
-              <tr key={mp.name} className={styles.row} onClick={() => window.location.href = mp.href}>
+              <tr key={mp.name} className={styles.row} onClick={() => window.location.href = '#'}>
                 <td>{mp.name}</td>
                 <td>{mp.startYear}</td>
                 <td>{mp.players}</td>
